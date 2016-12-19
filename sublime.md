@@ -5,6 +5,7 @@
 ## Install sublime
 
 Linux: apt-get
+
 Mac: I don't remember, `brew install` maybe?
 
 
@@ -16,8 +17,9 @@ Do once: https://packagecontrol.io/installation
 find packages: https://packagecontrol.io/browse
 
 install a package:
-https://packagecontrol.io/docs/usage
-To open the palette, press `ctrl+shift+p` (Win, Linux) or `cmd+shift+p` (OS X).
+
+- https://packagecontrol.io/docs/usage
+- To open the palette, press `ctrl+shift+p` (Win, Linux) or `cmd+shift+p` (OS X).
 
 
 
