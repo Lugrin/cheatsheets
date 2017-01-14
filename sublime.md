@@ -78,3 +78,14 @@ https://packagecontrol.io/packages/MarkdownEditing
 https://packagecontrol.io/packages/Markdown%20Preview
 
 Once installed, `Ctrl + Shift + p` then select "Markdown Preview: view in browser".
+
+
+
+## Json
+
+https://packagecontrol.io/packages/Pretty%20JSON
+
+- prettify (configurable) `ctrl+alt+j`
+- validate
+- minify / compact `Ctrl+Alt+M`
+- query with [jq](https://stedolan.github.io/jq/) `ctrl+atl+shift+j`
