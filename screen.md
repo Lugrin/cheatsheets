@@ -26,7 +26,7 @@ screen -d -R sessionname
 ```
 
 `-d` option will “detach” it at the other location, and `-R` will reattach your current terminal window to the session.
-If `sessionname` hasn’t been created, it will create the session for you.
+If `sessionname` hasn't been created, it will create the session for you.
 
 Detach from the session
 
