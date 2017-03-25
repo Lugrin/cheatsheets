@@ -6,8 +6,6 @@
 
 Linux: apt-get
 
-Mac: I don't remember, `brew install` maybe?
-
 
 
 ## Install packages
@@ -89,3 +87,25 @@ https://packagecontrol.io/packages/Pretty%20JSON
 - validate
 - minify / compact `Ctrl+Alt+M`
 - query with [jq](https://stedolan.github.io/jq/) `ctrl+atl+shift+j`
+
+
+
+## Sidebar configuration
+
+http://stackoverflow.com/questions/18288870/sublime-text-3-how-to-change-the-font-size-of-the-file-sidebar#25694790
+https://gist.github.com/anonymous/89867e9cb63f7e811a39
+
+For example:
+
+```json
+[
+    {
+        "class": "sidebar_tree",
+        "indent": 26,
+    },
+    {
+        "class": "sidebar_label",
+        "font.size": 12
+    },
+]
+```
