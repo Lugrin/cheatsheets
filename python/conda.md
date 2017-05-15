@@ -2,8 +2,14 @@
 
 ```bash
 conda <command> --help
-conda clean --all
 ```
+
+
+## install
+
+- [Download](https://conda.io/miniconda.html) and execute the installer `bash Miniconda3-blah.sh`
+- Run `source ~/.bashrc` to update `PATH`
+- Test installation with `conda list`
 
 
 ## TODO after install
@@ -12,6 +18,7 @@ conda clean --all
 
 ```bash
 conda update conda
+conda update --all
 ```
 
 ### channels
@@ -37,9 +44,19 @@ Then add this to bash profile: `eval "$(register-python-argcomplete conda)"`
 
 For zsh, see http://conda.pydata.org/docs/install/tab-completion.html
 
-### default packages for all environments
+### useful packages
 
-create_default_packages: A list of packages that are included in every new environment by default.
+```bash
+conda install numpy pandas sympy scipy bottleneck
+conda install statsmodels scikit-learn mdp pymc3
+conda install gensim nltk snowballstemmer spacy textblob
+conda install unidecode whoosh chardet ftfy fuzzywuzzy
+conda install beautifulsoup4 scrapy
+conda install matplotlib bokeh graphviz holoviews datashader yt glueviz
+conda install jupyter qgrid
+conda install pylint
+conda install cython
+```
 
 
 ## Share an environment
@@ -100,26 +117,6 @@ $ cat > ./etc/conda/deactivate.d/<idio-packagename-scriptname>.sh
 #!/bin/sh
 unset MY_KEY
 unset MY_FILE
-```
-
-
-## lasagne
-
-*Possibly out-of-date by now. Just be careful to take the exact python version and module dependency versions as recommended.*
-
-```bash
-conda create --name lasagne_env python=3.4 scipy
-conda install theano
-pip install Lasagne==0.1
-pip install nolearn
-source activate lasagne
-```
-
-
-## Jupyter notebook
-
-```bash
-conda install jupyter matplotlib
 ```
 
 
